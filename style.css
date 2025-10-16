@@ -24,9 +24,10 @@ h2 {
     font-size: 25;
 }
 body {
-    background-color: Gray	;
+    background-color: DarkGray;
 }
 hr {
     height: 5px;
     border-color: black;
+
 }
