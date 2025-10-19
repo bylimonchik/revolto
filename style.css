@@ -24,7 +24,7 @@ h2 {
     font-size: 25;
 }
 body {
-    background-color: LightGray;
+    background-color: rgb(255, 255, 255);
 }
 hr {
     height: 5px;
@@ -134,3 +134,4 @@ button{
     color:black;
     margin: 0px 0px 0px 850px;
 }
+
