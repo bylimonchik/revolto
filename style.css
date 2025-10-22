@@ -134,4 +134,41 @@ button{
     color:black;
     margin: 0px 0px 0px 850px;
 }
+/* 1. Адаптивные изображения */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* 2. Базовые стили для адаптивного контейнера (используем проценты) */
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* 3. Медиа-запрос для мобильных устройств (ширина до 600px) */
+@media (max-width: 600px) {
+    /* Меняем стили для телефона */
+    body {
+        font-size: 16px;
+    }
+
+    .container {
+        width: 100%;
+        padding: 10px;
+        margin: 0;
+    }
+
+    /* Пример: Если у вас есть Flexbox/Grid, меняем направление на колонку */
+    .flex-wrapper {
+        flex-direction: column;
+    }
+
+    /* Пример: Скрываем неважные элементы */
+    .desktop-only-element {
+        display: none;
+    }
+}
 
